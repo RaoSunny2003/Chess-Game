@@ -1,0 +1,16 @@
+#chessboard {
+  height: 90vh;
+  width: 90vh;
+  background-color: rgb(0, 62, 119);
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+}
+
+#chessboard div {
+  margin: 0;
+}
+
+.white {
+  background-color: antiquewhite;
+  color: black;
+}

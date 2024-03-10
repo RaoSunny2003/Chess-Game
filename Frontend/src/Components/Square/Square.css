@@ -1,0 +1,31 @@
+img {
+  width: 65px;
+  position: absolute;
+  height: 65px;
+  border: none;
+}
+div {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  border: none;
+  border: none;
+}
+
+.chessPiece {
+  height: 105px;
+  width: 105px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 65px;
+}
+
+.chessPiece:hover {
+  cursor: grab;
+}
+
+.chessPiece:active {
+  cursor: grabbing;
+}
